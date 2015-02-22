@@ -5,6 +5,7 @@ public class circle extends AbstractShape{
 	
 	public circle(double radio){
 		super("circle");
+		this.radio=radio;
 	}
 	
 	public double GetRadio(){
