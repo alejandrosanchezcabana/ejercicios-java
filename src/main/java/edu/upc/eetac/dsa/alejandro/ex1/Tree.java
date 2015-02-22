@@ -26,16 +26,17 @@ public String toString(){
 	StringBuilder texto=new StringBuilder();
 	texto.append("Un ");
 	if (especie==null){
-		texto.append("arbol ");
+		texto.append("arbol");
 	}
 	else{
-		texto.append(especie+" ");
+		texto.append(especie);
 	}
-	if (altura<=0){
-		texto.append("de "+altura+" metros.");
+	if (altura!=0){
+		texto.append(" de " +altura+ " metros.");
 	}
 	else{
 		texto.append(".");
 	}
+	return texto.toString();
 }
 }
