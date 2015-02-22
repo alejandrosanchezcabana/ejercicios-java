@@ -1,11 +1,11 @@
 package edu.upc.eetac.dsa.alejandro.ex2;
 
-public class ex2 {
-    public static void main(String[] args) {
-        Shape[] shapes = new Shape[2];
-        shapes[0] = new Circle(2.5);
-        shapes[1] = new Rectangle(3, 5);
-        for (Shape shape : shapes)
-            System.out.println(shape + " with area = " + shape.area());
-    }
+public class ex2{
+	public static void main(String[] args){
+		shape[] shapes=new shape[2];
+		shapes[0]=new circle(2.5);
+		shapes[1]=new Square(2, 5);
+		for (shape shape : shapes)
+			System.out.println(shape+" with area = "+ shape.area());
+	}
 }
