@@ -19,7 +19,6 @@ public class ex1 {
         arboles2[9] = new Tree("Sauce");
         arboles2[10] = new Tree();
         arboles2[11] = new Tree(25, "Encina");
-
         for (Tree t : arboles2)
             System.out.println(t);
     }
