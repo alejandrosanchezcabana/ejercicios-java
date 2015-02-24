@@ -22,6 +22,7 @@ public class Square extends AbstractShape{
 		this.anchura=anchura;
 	}
 	
+	
 	//Override
 	public double area() {
 		return anchura*altura;
