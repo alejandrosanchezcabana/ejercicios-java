@@ -6,11 +6,10 @@ import java.util.Random;
 public class ThreadClass extends Thread {
     long lastExecution = 0;
     int counter = 0;
-
+    
     public ThreadClass(String name) {
         super(name);
     }
-
     @Override
     public void run() {
         for (int i = 0; i < 10; i++) {
